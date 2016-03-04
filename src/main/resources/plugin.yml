@@ -1,0 +1,12 @@
+name: TemporaryFlight
+main: com.woutwoot.tempfly.Main
+version: ${project.version}
+author: woutwoot
+description: Allow flight for a certain amount of time
+commands:
+  tfly:
+    description: Main command for ItemFrameShops.
+    aliases: [soar, tempfly, temporaryflight]
+    permission: temporaryflight.use
+    permission-message: You do not have the required permission (<permission>)
+    usage: "Something went wrong there. Try /<command> help."
